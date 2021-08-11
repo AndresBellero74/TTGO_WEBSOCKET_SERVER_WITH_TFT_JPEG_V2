@@ -7,23 +7,9 @@
 #include <TJpg_Decoder.h>
 #include <TFT_eSPI.h>
 int ledPin = 22;                 // LED conectado al pin digital 13
-//SSID:  Fibertel WiFi195 2.4GHz Andres
-//Protocol: 802.11n
-//Security type:  WPA2-Personal
-//Network band: 2.4 GHz
-//Network channel:  11
-//IPv4 address: 192.168.1.105
-//IPv4 DNS servers: 192.168.1.1
-//Manufacturer: Intel Corporation
-//Description:  Intel(R) Dual Band Wireless-AC 8265
-//Driver version: 20.70.15.1
-//Physical address (MAC): E4-70-B8-9B-90-29
 
-
-const char* ssid = "Fibertel WiFi195 2.4GHz";
-const char* password = "0146659536";
-//const char* ssid = "Esp32Wifi";
-//const char* password = "Agustina";
+const char* ssid = "Red Wifi";
+const char* password = "Clave Wifi";
 
 const char* imageFileName = "/camimage.jpeg";
 
